@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <!-- Website header section displaying page title -->
+    <header>
+        <h1>Featured Recipes</h1>
+    </header>
+    
+    <!-- Navigation menu linking all website pages -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="ingredients.html">Ingredients</a></li>
+            <li><a href="mealplanner.html">Meal Planner</a></li>
+            <li><a href="tips.html">Tips</a></li>
+            <li><a href="submit.html">Submit Recipes</a></li>
+            <li><a href="sources.html">References</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Main content displaying a brief description of the site and featured recipes -->
+    <div class="content">
+
+    <!-- Caption section displaying promotional image and tagline -->
+    <section class="caption">
+        <div class="caption-image">
+            <img src="images/Paella.jpg" class="img-fluid framed" alt="Spanish rice dish">
+        </div>
+
+        <div class="caption-text">
+            <p class="category">CULINARY COLLECTION</p>
+            <h2>Sample the World</h2>
+            <p class="description">Travel the world without draining your savings. 
+                Each meal in our collection reflects the cuisine typically served at these breathtaking locations. 
+                Whether it's your first time in the kitchen or honing your culinary skills, there's a meal suited to everyone's taste. 
+                These meals are easy to prepare and offer a delightful flavor from the comfort of your home. </p>
+        </div>
+    </section>
+    
+    <!-- Popular food categories -->
+    <section class="category-list">
+        <h3>Popular Categories</h3>
+        <ul>
+            <li>Breakfast</li>
+            <li>Lunch</li>
+            <li>Dinner</li>
+            <li>Snack</li>
+            <li>Dessert</li>
+        </ul>
+    </section>
+
+    <!-- Grid layout displays featured recipe cards -->
+    <section class="recipe-grid">
+        
+        <!-- Individual recipe cards -->
+        <div class="recipe-card">
+            <img src="images/Pizza.jpg" alt="Pizza topped with mozarella, basil, and tomato sauce">
+            <h3>Margherita Pizza</h3>
+            <p>30 minutes | Intermediate | 4 servings</p>
+        </div>
+        
+        <!-- Individual recipe cards -->
+        <div class="recipe-card">
+            <img src="images/Sushi.jpg" alt="Sushi topped with sashimi and red flakes">
+            <h3>California Rolls</h3>
+            <p>15 minutes | Intermediate | 6 servings</p>
+        </div>
+        
+        <!-- Individual recipe cards -->
+        <div class="recipe-card">
+            <img src="images/Tacos.jpg" alt="Plate of Tacos served with pickled onions, jalapenos, and lime">
+            <h3>Carne Asada Tacos</h3>
+            <p>20 minutes | Easy | 3 servings</p>
+        </div>
+        
+        <!-- Individual recipe cards -->
+        <div class="recipe-card">
+            <img src="images/Ramen.jpg" alt="Bowl of Ramen noodles with Chasu Pork and scallions">
+            <h3>Tonkatsu Ramen</h3>
+            <p>25 minutes | Expert | 2 servings</p>
+        </div>
+        
+        <!-- Button to open a separate window for cooking tips -->
+         <div class="tips-button">
+            <button onclick="openTips()">View Cooking Tips</button>
+         </div>
+    </section>
+    </div>
+    
+    <!-- Footer section with copyright statement and stylesheet link -->
+    <footer>
+        <p>This website is developed as an educational project.</p>
+        <p>Certain materials are included under the fair use exemption of the U.S. 
+            Copyright Law and have been prepared according to the multimedia fair 
+            use guidelines and are restricted from further use.</p>
+        <p><a href="https://mason.gmu.edu/~ktran51/ProjectIT331/styles.css">View CSS Stylesheet</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

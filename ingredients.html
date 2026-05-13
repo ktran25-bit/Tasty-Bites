@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingredients</title>
+    
+    <!-- External CSS Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Website header section displaying page title -->
+    <header>
+        <h1>Ingredient Reference Table</h1>
+    </header>
+
+    <!-- Navigation menu linking all website pages -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="ingredients.html">Ingredients</a></li>
+            <li><a href="mealplanner.html">Meal Planner</a></li>
+            <li><a href="tips.html">Tips</a></li>
+            <li><a href="submit.html">Submit Recipes</a></li>
+            <li><a href="sources.html">References</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Main content displaying a table listing common ingredients -->
+    <div class="content">
+    <h2>Reference Table</h2>
+    <p>This table lists common ingredients from popular dishes along with typical portions and cuisine type.</p>
+    
+    <!-- JSON Fetch Button -->
+    <button id="loadJSONBtn">Load Nutrition Data</button>
+
+    <!-- REST API Button -->
+     <button id="loadAPIBtn">Load Live Recipes</button>
+
+    <!-- Reference table displaying ingredient portions and cuisine types -->
+    <div class="table-container">
+        <table id="ingredientTable">
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Portion</th>
+                    <th>Cuisine</th>
+                    <th>Dish</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <!-- Tonkatsu Ramen -->
+                <tr>
+                    <td>Ramen Noodles</td>
+                    <td>150g</td>
+                    <td>Japanese</td>
+                    <td>Tonkatsu Ramen</td>
+                </tr>
+                <tr>
+                    <td>Pork Cutlet (Tonkatsu)</td>
+                    <td>1 piece (120g)</td>
+                    <td>Japanese</td>
+                    <td>Tonkatsu Ramen</td>
+                </tr>
+                <tr>
+                    <td>Soft-Boiled Egg</td>
+                    <td>1 egg (34g)</td>
+                    <td>Japanese</td>
+                    <td>Tonkatsu Ramen</td>
+                </tr>
+                <tr>
+                    <td>Green Onion / Scallions</td>
+                    <td>100g</td>
+                    <td>Japanese</td>
+                    <td>Tonkatsu Ramen</td>
+                </tr>
+
+                <!-- Carne Asada Tacos -->
+                <tr>
+                    <td>Flank Steak</td>
+                    <td>100g</td>
+                    <td>Mexican</td>
+                    <td>Carne Asada Tacos</td>
+                </tr>
+                <tr>
+                    <td>Corn Tortillas</td>
+                    <td>1 Tortilla (26g)</td>
+                    <td>Mexican</td>
+                    <td>Carne Asada Tacos</td>
+                </tr>
+                <tr>
+                    <td>Cilantro</td>
+                    <td>0.25 cup (4g)</td>
+                    <td>Mexican</td>
+                    <td>Carne Asada Tacos</td>
+                </tr>
+                <tr>
+                    <td>Onions</td>
+                    <td>1 large (150g)</td>
+                    <td>Mexican</td>
+                    <td>Carne Asada Tacos</td>
+                </tr>
+
+                <!-- Margherita Pizza -->
+                <tr>
+                    <td>Pizza Dough</td>
+                    <td>1 base (200g)</td>
+                    <td>Italian</td>
+                    <td>Margherita Pizza</td>
+                </tr>
+                <tr>
+                    <td>Tomato Sauce</td>
+                    <td>100g</td>
+                    <td>Italian</td>
+                    <td>Margherita Pizza</td>
+                </tr>
+                <tr>
+                    <td>Fresh Mozzarella</td>
+                    <td>6 slices (170g)</td>
+                    <td>Italian</td>
+                    <td>Margherita Pizza</td>
+                </tr>
+                <tr>
+                    <td>Fresh Basil</td>
+                    <td>5 leaves (2.5g)</td>
+                    <td>Italian</td>
+                    <td>Margherita Pizza</td>
+                </tr>
+
+                <!-- Paella -->
+                <tr>
+                    <td>Short-Grain Rice</td>
+                    <td>1 cup (205g)</td>
+                    <td>Spanish</td>
+                    <td>Paella</td>
+                </tr>
+                <tr>
+                    <td>Saffron</td>
+                    <td>1 tsp (0.7g)</td>
+                    <td>Spanish</td>
+                    <td>Paella</td>
+                </tr>
+                <tr>
+                    <td>Chicken</td>
+                    <td>100g</td>
+                    <td>Spanish</td>
+                    <td>Paella</td>
+                </tr>
+                <tr>
+                    <td>Shrimp</td>
+                    <td>100g</td>
+                    <td>Spanish</td>
+                    <td>Paella</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- API Results -->
+     <div id="apiResult"></div>
+    
+    <!-- Source citation for nutritional data -->
+    <p class="table-source">Nutritional data retrieved from the U.S. Department of Agriculture, FoodData Central database:
+    <a href="https://fdc.nal.usda.gov/" target="_blank"> https://fdc.nal.usda.gov/</a></p>
+</div>
+    
+    <!-- Footer section with copyright statement and stylesheet link -->
+    <footer>
+        <p>This website is developed as an educational project.</p>
+        <p>Certain materials are included under the fair use exemption of the U.S. 
+            Copyright Law and have been prepared according to the multimedia fair 
+            use guidelines and are restricted from further use.</p>
+        <p><a href="https://mason.gmu.edu/~ktran51/ProjectIT331/styles.css">View CSS Stylesheet</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

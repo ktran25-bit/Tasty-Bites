@@ -1,0 +1,18 @@
+[
+  { "Ingredient": "Patty", "Portion": "5 oz (140g)", "Cuisine": "American", "Dish": "Hamburger"},
+  { "Ingredient": "Bun", "Portion": "1 bun", "Cuisine": "American", "Dish": "Hamburger"},
+  { "Ingredient": "Cheese", "Portion": "1 slice", "Cuisine": "American", "Dish": "Hamburger"},
+  { "Ingredient": "Lettuce", "Portion": "1 crisp leaf", "Cuisine": "American", "Dish": "Hamburger"},
+  { "Ingredient": "Tomato", "Portion": "2 thin slices", "Cuisine": "American", "Dish": "Hamburger"},
+  { "Ingredient": "Onion", "Portion": "2 slices", "Cuisine": "American", "Dish": "Hamburger"},
+
+  { "Ingredient": "Pasta", "Portion": "2 cups (200g)", "Cuisine": "Italian", "Dish": "Spaghetti" },
+  { "Ingredient": "Tomato Sauce", "Portion": "1/2 cup", "Cuisine": "Italian", "Dish": "Spaghetti" },
+  { "Ingredient": "Ground Beef", "Portion": "4 oz (113g)", "Cuisine": "Italian", "Dish": "Spaghetti" },
+  { "Ingredient": "Parmesan", "Portion": "2 tbsp", "Cuisine": "Italian", "Dish": "Spaghetti" },
+
+  { "Ingredient": "Rice Noodles", "Portion": "150g", "Cuisine": "Vietnamese", "Dish": "Pho" },
+  { "Ingredient": "Beef", "Portion": "4 oz (113g)", "Cuisine": "Vietnamese", "Dish": "Pho" },
+  { "Ingredient": "Broth", "Portion": "2 cups", "Cuisine": "Vietnamese", "Dish": "Pho" },
+  { "Ingredient": "Bean Sprouts", "Portion": "1/2 cup", "Cuisine": "Vietnamese", "Dish": "Pho" }
+]
